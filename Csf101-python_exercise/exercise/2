@@ -1,0 +1,7 @@
+print"enter a number"
+input number
+if num % 2 == 0 then
+    print "the number is even"
+else 
+    print "the number is odd"
+endif

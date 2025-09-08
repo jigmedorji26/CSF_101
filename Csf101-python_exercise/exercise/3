@@ -1,0 +1,13 @@
+print "enter first number"
+input A 
+print "enter second number"
+input B
+print "enter third number"
+input C
+if (A >= B) and (A >= C) then
+    print "the largest number is", A
+else if (B >= A) and (B >= C) then
+    print "the largest number is", B
+else
+    print "the largest number is", C
+endif

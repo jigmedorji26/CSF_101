@@ -1,0 +1,4 @@
+ PRINT "Enter temperature in Celsius"
+    INPUT C
+F = (C * 9/5) + 32
+    PRINT "Temperature in Fahrenheit is", F

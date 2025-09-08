@@ -1,0 +1,10 @@
+print "enter a year"
+input yearif (year % 400 = 0) then 
+    print "leap year"
+else if (year % 100 == 0) then
+    print "not a leap year"
+else if (year % 4 == 0) then
+    print "leap year"
+else 
+    print "not a leap year"
+endif 

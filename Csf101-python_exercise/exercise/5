@@ -1,0 +1,5 @@
+print "enter n"
+input n
+sum = n * (n + 1) / 2
+print "the sum of numbers from 1 to n is", sum 
+end 

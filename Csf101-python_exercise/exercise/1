@@ -1,0 +1,5 @@
+input = length
+input = width
+area = length * width 
+output = "the area of the rectangle is", area
+end

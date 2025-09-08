@@ -1,0 +1,11 @@
+def linear_search_all(arr, target):
+    indices = []
+    for i in range(len(arr)):
+        if arr[i] == target:
+            indices.append(i)
+    return indices
+nums = [5, 3, 7, 3, 9, 3, 2]
+target = 3
+
+result = linear_search_all(nums, target)
+print("Target found at indices:", result)
